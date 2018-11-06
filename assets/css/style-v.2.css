@@ -53,6 +53,7 @@ font-size: 15px;
 
 
 .navbar{
+
     background-color: #231F20;
 }
 
@@ -371,7 +372,7 @@ figure > img {
 }
 
 .left-contacts{
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -384,7 +385,7 @@ figure > img {
 }
 
 .right-reviews{
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -401,10 +402,17 @@ figure > img {
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    margin-left: 100px;
+    /*margin-left: 100px;*/
+    margin: 0 auto;
 }
 
 .review-details{
+
+    text-align: center;
+
+}
+
+.review-details p{
 
     text-align: center;
 
@@ -1227,7 +1235,13 @@ figure > img {
 
 .review-details{
 
-    text-align: center;
+    text-align: left;
+
+}
+
+.review-details p{
+
+    text-align: left;
 
 }
 
@@ -2881,6 +2895,10 @@ figure > img {
 .review-details{
     padding: 20px;
     margin-left: 20px;
+    text-align: left;
+}
+
+.review-details p{
     text-align: left;
 }
 cs
